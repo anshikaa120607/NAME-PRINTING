@@ -1,59 +1,29 @@
-// //A
-// #include<stdio.h>
-// int main()
-// {
-//     int i,j;
+A
+#include<stdio.h>
+int main()
+{
+    int i,j;
 
-//     for(i=0;i<=10;i++)
-//     {
-//         for(j=0;j<=10;j++)
-//         {
-//             if(j==0 || j==10 || i==5 || i==0)
-//             {
-//                 printf("*");
-//             }
+    for(i=0;i<=10;i++)
+    {
+        for(j=0;j<=10;j++)
+        {
+            if(j==0 || j==10 || i==5 || i==0)
+            {
+                printf("*");
+            }
 
-//             else
-//             {
-//                 printf(" ");
-//             }
-//         }
+            else
+            {
+                printf(" ");
+            }
+        }
 
-//         printf("\n");
-//     }
+        printf("\n");
+    }
 
-//     return 0 ;
-// }
-
-
-
-
-
-
-
-// //N
-// #include<stdio.h>
-// int main()
-// {
-//     int i,j;
-
-//     for(i=0;i<=10;i++)
-    // {
-        // for(j=0;j<=10;j++)
-        // {
-        //     if(j==0 || j==10 || i==j)
-        //     {
-        //         printf("*");
-        //     }
-        //     else
-        //     {
-        //         printf(" ");
-        //     }
-        // }
-        // printf("\n");
-    // }
-    // return 0 ;
-// }
+    return 0 ;
+}
 
 
 
@@ -61,114 +31,29 @@
 
 
 
-// // S
-// #include<stdio.h>
-// int main()
-// {
-//     int i,j;
+N
+#include<stdio.h>
+int main()
+{
+    int i,j;
 
-//     for(i=0;i<=10;i++)
-//     {
-//         for(j=0;j<=10;j++)
-//         {
-//             if(i==0 || (j==0 && i<=5) || i==5 ||( j==10 && i>=5 ) || i==10)
-//             {
-//                 printf("*");
-//             }
-//             else
-//             {
-//                 printf(" ");
-//             }
-//         }
-//         printf("\n");
-//     }
-//     return 0 ;
-// }
-
-
-
-
-
-
-
-// // H 
-// #include<stdio.h>
-// int main()
-// {
-//     int i,j;
-
-//     for(i=0;i<=10;i++)
-//     {
-//         for(j=0;j<=10;j++)
-//         {
-//             if(j==0 || j==10 || i==5)
-//             {
-//                 printf("*");
-//             }
-//             else
-//             {
-//                 printf(" ");
-//             }
-//         }
-//         printf("\n");
-//     }
-//     return 0 ;
-// }
-
-
-
-
-
-// //I
-// #include<stdio.h>
-// int main()
-// {
-//     int i,j;
-
-//     for(i=0;i<=10;i++)
-//     {
-//         for(j=0;j<=10;j++)
-//         {
-//             if(i==0 || i==10 || j==5)
-//             {
-//                 printf("*");
-//             }
-//             else
-//             {
-//                 printf(" ");
-//             }
-//         }
-//         printf("\n");
-//     }
-//     return 0 ;
-// }
-
-
-
-
-// // K
-// #include<stdio.h>
-// int main()
-// {
-//     int i,j;
-
-//     for(i=0;i<=10;i++)
-//     {
-//         for(j=0;j<=10;j++)
-//         {
-//             if(j==0 || ((i+j==5) && (j<=5) ) || ((i-j==5) && (j<=5)))
-//             {
-//                 printf("*");
-//             }
-//             else
-//             {
-//                 printf(" ");
-//             }
-//         }
-//         printf("\n");
-//     }
-//     return 0 ;
-// }
+    for(i=0;i<=10;i++)
+    {
+        for(j=0;j<=10;j++)
+        {
+            if(j==0 || j==10 || i==j)
+            {
+                printf("*");
+            }
+            else
+            {
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0 ;
+}
 
 
 
@@ -176,8 +61,123 @@
 
 
 
+ S
+#include<stdio.h>
+int main()
+{
+    int i,j;
 
-//ANSHIKA
+    for(i=0;i<=10;i++)
+    {
+        for(j=0;j<=10;j++)
+        {
+            if(i==0 || (j==0 && i<=5) || i==5 ||( j==10 && i>=5 ) || i==10)
+            {
+                printf("*");
+            }
+            else
+            {
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0 ;
+}
+
+
+
+
+
+
+
+ H 
+#include<stdio.h>
+int main()
+{
+    int i,j;
+
+    for(i=0;i<=10;i++)
+    {
+        for(j=0;j<=10;j++)
+        {
+            if(j==0 || j==10 || i==5)
+            {
+                printf("*");
+            }
+            else
+            {
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0 ;
+}
+
+
+
+
+
+I
+#include<stdio.h>
+int main()
+{
+    int i,j;
+
+    for(i=0;i<=10;i++)
+    {
+        for(j=0;j<=10;j++)
+        {
+            if(i==0 || i==10 || j==5)
+            {
+                printf("*");
+            }
+            else
+            {
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0 ;
+}
+
+
+
+
+K
+#include<stdio.h>
+int main()
+{
+    int i,j;
+
+    for(i=0;i<=10;i++)
+    {
+        for(j=0;j<=10;j++)
+        {
+            if(j==0 || ((i+j==5) && (j<=5) ) || ((i-j==5) && (j<=5)))
+            {
+                printf("*");
+            }
+            else
+            {
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0 ;
+}
+
+
+
+
+
+
+
+
+ANSHIKA
 #include<stdio.h>
 int main()
 {
